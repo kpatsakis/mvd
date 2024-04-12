@@ -1,0 +1,1 @@
+static void goodG2B() int h ; char * data ; char dataBuffer [ 100 ] = "" ; data = dataBuffer; for(h = 0; h < 1; h++) strcpy ( data , "C:\\Windows\\System32\\winsrv.dll" ); hModule = LoadLibraryA ( data ); if ( hModule != NULL )  FreeLibrary ( hModule ); 

@@ -1,0 +1,1 @@
+void CWE196_Unsigned_to_Signed_Conversion_Error__basic_08_bad() if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; unsigned intUnsigned ; intUnsigned = rand ( ); intUnsigned = UINT_MAX - intUnsigned; intSigned = intUnsigned; printIntLine ( intSigned ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); 

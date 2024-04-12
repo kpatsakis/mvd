@@ -1,0 +1,1 @@
+ nestegg_tstamp_scale(nestegg * ctx, uint64_t * scale) * scale = ne_get_timecode_scale ( ctx ); static ne_get_timecode_scale(nestegg * ctx) uint64_t scale ; if ( ne_get_uint ( ctx -> segment . info . timecode_scale , & scale ) != 0 )  static ne_get_uint(struct ebml_type type, uint64_t * value) if ( ! type . read )  assert ( type . type == TYPE_UINT ); 

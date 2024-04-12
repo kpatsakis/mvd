@@ -1,0 +1,1 @@
+void CWE321_Hard_Coded_Cryptographic_Key__w32_char_08_bad() char * cryptoKey ; char cryptoKeyBuffer [ 100 ] = "" ; cryptoKey = cryptoKeyBuffer; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; strcpy ( cryptoKey , CRYPTO_KEY ); HCRYPTHASH hHash ; if ( ! CryptHashData ( hHash , ( BYTE * ) cryptoKey , strlen ( cryptoKey ) * sizeof ( char ) , 0 ) )  

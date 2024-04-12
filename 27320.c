@@ -1,0 +1,1 @@
+void bad() TwoIntsClass * data ; data = NULL; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; data = new TwoIntsClass [ 100 ]; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; free ( data ); 

@@ -1,0 +1,1 @@
+static void goodG2B2() char * data ; char dataBuffer [ FILENAME_MAX ] = "" ; data = dataBuffer; data = goodG2B2Source ( data ); char * goodG2B2Source(char * data) if ( goodG2B2Global )  strcat ( data , "c:\\temp\\file.txt" ); return data ; pFile = FOPEN ( data , "wb+" ); if ( pFile != NULL )  fclose ( pFile ); 

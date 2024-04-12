@@ -1,0 +1,1 @@
+void CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_17_bad() int i ; int64_t * data ; for(i = 0; i < 1; i++) data = ( int64_t * ) malloc ( 50 * sizeof ( int64_t ) ); memcpy ( data , source , 100 * sizeof ( int64_t ) ); printLongLongLine ( data [ 0 ] ); void printLongLongLine (int64_t longLongIntNumber) printf ( "%lld\n" , longLongIntNumber ); free ( data ); 

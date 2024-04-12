@@ -1,0 +1,1 @@
+static char *CVE_2013_0874_VULN_shorts2str(int16_t *sp, int count, const char *sep) int i ; char * ap , * ap0 ; if ( ! sep )  sep = ", "; ap = av_malloc ( ( 5 + strlen ( sep ) ) * count ); if ( ! ap )  ap [ 0 ] = '\0'; for (i = 0; i < count; i++) int l = snprintf ( ap , 5 + strlen ( sep ) , "%d%s" , sp [ i ] , sep ) ; ap += l; 

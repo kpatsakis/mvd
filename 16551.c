@@ -1,0 +1,1 @@
+static void goodG2B() int64_t * data ; data = NULL; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; data = ( int64_t * ) malloc ( sizeof ( * data ) ); * data = 2147483643L L data = ( int64_t * ) malloc ( sizeof ( * data ) ); * data = 2147483643L L free ( data ); 

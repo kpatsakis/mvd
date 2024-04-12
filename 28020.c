@@ -1,0 +1,1 @@
+void CWE761_Free_Pointer_Not_at_Start_of_Buffer__wchar_t_fixed_string_32_bad() wchar_t * data ; wchar_t * * dataPtr1 = & data ; data = ( wchar_t * ) malloc ( 100 * sizeof ( wchar_t ) ); data [ 0 ] = L '\0' wchar_t * data = * dataPtr1 ; wcscpy ( data , BAD_SOURCE_FIXED_STRING ); * dataPtr1 = data; for (  * data != L '\0' data ++ ) if ( * data == SEARCH_CHAR )  free ( data ); 

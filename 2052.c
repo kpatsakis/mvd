@@ -1,0 +1,1 @@
+void bad() size_t data ; size_t & dataRef = data ; data = 0; data = rand ( ); size_t data = dataRef ; char * myString ; if ( data > strlen ( HELLO_STRING ) )  myString = ( char * ) malloc ( data * sizeof ( char ) ); strcpy ( myString , HELLO_STRING ); free ( myString ); 

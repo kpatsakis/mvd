@@ -1,0 +1,1 @@
+void CWE680_Integer_Overflow_to_Buffer_Overflow__malloc_fscanf_32_bad() int data ; int * dataPtr2 = & data ; data = - 1; int data = * dataPtr2 ; int * intPointer ; intPointer = ( int * ) malloc ( data * sizeof ( int ) ); intPointer [ i ] = 0; printIntLine ( intPointer [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); free ( intPointer ); 

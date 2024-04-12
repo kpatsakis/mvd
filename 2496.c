@@ -1,0 +1,1 @@
+void bad() char * data ; data = NULL; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; data = new char if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; free ( data ); 

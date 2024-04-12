@@ -1,0 +1,1 @@
+static void goodG2B() int * data ; structType myStruct ; data = NULL; data = ( int * ) malloc ( 100 * sizeof ( int ) ); myStruct . structFirst = data; goodG2BSink ( myStruct ); void goodG2BSink(structType myStruct) int * data = myStruct . structFirst ; free ( data ); 

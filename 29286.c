@@ -1,0 +1,1 @@
+static void goodG2B() int * data ; data = ( int * ) malloc ( 100 * sizeof ( int ) ); data [ i ] = 5; CWE416_Use_After_Free__malloc_free_int_63b_goodG2BSink ( & data ); void CWE416_Use_After_Free__malloc_free_int_63b_goodG2BSink(int * * dataPtr) int * data = * dataPtr ; printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); 

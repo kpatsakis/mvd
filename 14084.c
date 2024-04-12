@@ -1,0 +1,1 @@
+void CWE690_NULL_Deref_From_Return__char_malloc_17_bad() int j ; char * data ; data = NULL; data = ( char * ) malloc ( 20 * sizeof ( char ) ); for(j = 0; j < 1; j++) strcpy ( data , "Initialize" ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); free ( data ); 

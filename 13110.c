@@ -1,0 +1,1 @@
+static void good1() if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; char * pointer = ( char * ) malloc ( sizeof ( char ) ) ; * pointer = data; char data = * pointer ; printHexCharLine ( data ); void printHexCharLine (char charHex) printf ( "%02x\n" , charHex ); free ( pointer ); 

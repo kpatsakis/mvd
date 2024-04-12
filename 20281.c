@@ -1,0 +1,1 @@
+void bad() size_t data ; data = 0; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; data = rand ( ); if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; if ( data > strlen ( HELLO_STRING ) )  

@@ -1,0 +1,1 @@
+static void good1() int k ; for(k = 0; k < 1; k++) twoIntsStruct * data ; twoIntsStruct * * pointer = ( twoIntsStruct * * ) malloc ( sizeof ( twoIntsStruct * ) ) ; data = ( twoIntsStruct * ) malloc ( sizeof ( twoIntsStruct ) ); data -> intOne = 5; data -> intTwo = 6; * pointer = data; free ( pointer ); 

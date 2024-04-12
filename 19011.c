@@ -1,0 +1,1 @@
+void CWE426_Untrusted_Search_Path__wchar_t_popen_34_bad() wchar_t * data ; wchar_t dataBuffer [ 100 ] = L "" data = dataBuffer; wcscpy ( data , BAD_OS_COMMAND ); myUnion . unionFirst = data; wchar_t * data = myUnion . unionSecond ; pipe = POPEN ( data , L "wb" ) if ( pipe != NULL )  PCLOSE ( pipe ); 

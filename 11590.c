@@ -1,0 +1,1 @@
+void CWE690_NULL_Deref_From_Return__struct_realloc_42_bad() twoIntsStruct * data ; data = NULL; data = badSource ( data ); static twoIntsStruct * badSource(twoIntsStruct * data) data = ( twoIntsStruct * ) realloc ( data , 1 * sizeof ( twoIntsStruct ) ); return data ; data [ 0 ] . intOne = 1; data [ 0 ] . intTwo = 1; free ( data ); 

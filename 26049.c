@@ -1,0 +1,1 @@
+static void goodB2G() wchar_t * data ; data = NULL; data = CWE690_NULL_Deref_From_Return__wchar_t_malloc_61b_goodB2GSource ( data ); wchar_t * CWE690_NULL_Deref_From_Return__wchar_t_malloc_61b_goodB2GSource(wchar_t * data) data = ( wchar_t * ) malloc ( 20 * sizeof ( wchar_t ) ); return data ; if ( data != NULL )  wcscpy ( data , L "Initialize" ) free ( data ); 

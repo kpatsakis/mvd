@@ -1,0 +1,1 @@
+static void goodG2B() char * data ; char * * dataPtr1 = & data ; char dataBuffer [ 100 ] = "" ; data = dataBuffer; char * data = * dataPtr1 ; strcpy ( data , "fixedstringtest" ); * dataPtr1 = data; goodG2BVaSink ( data , data ); static void goodG2BVaSink(char * data, ...) va_start ( args , data ); vfprintf ( stdout , data , args ); 

@@ -1,0 +1,1 @@
+static void goodB2G() size_t data ; data = 0; goodB2GSink ( data ); static void goodB2GSink(size_t data) wchar_t * myString ; if ( data > wcslen ( HELLO_STRING ) && data < 100 )  myString = ( wchar_t * ) malloc ( data * sizeof ( wchar_t ) ); wcscpy ( myString , HELLO_STRING ); free ( myString ); 

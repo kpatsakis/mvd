@@ -1,0 +1,1 @@
+void CWE690_NULL_Deref_From_Return__long_calloc_34_bad() long * data ; data = ( long * ) calloc ( 1 , sizeof ( long ) ); myUnion . unionFirst = data; long * data = myUnion . unionSecond ; data [ 0 ] = 5L; printLongLine ( data [ 0 ] ); void printLongLine (long longNumber) printf ( "%ld\n" , longNumber ); free ( data ); 

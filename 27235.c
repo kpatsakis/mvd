@@ -1,0 +1,1 @@
+int main(int argc, char *argv[]) int copy_size ; int buf_size ; char src [ 11 ] ; char buf [ 10 ] ; memset ( src , 'A' , 11 ); src [ 11 - 1 ] = '\0'; copy_size = - 1; buf_size = sizeof buf; if ( copy_size <= buf_size )  memcpy ( buf , src , copy_size ); 

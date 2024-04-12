@@ -1,0 +1,1 @@
+static void badSink() wchar_t * data = CWE124_Buffer_Underwrite__wchar_t_declare_ncpy_45_badData ; wchar_t source [ 100 ] ; wmemset ( source , L 'C' , 100 - 1 source [ 100 - 1 ] = L '\0' wcsncpy ( data , source , 100 - 1 ); printWLine ( data ); void printWLine (const wchar_t * line) if ( line != NULL )  wprintf ( L "%ls\n" , line ) 

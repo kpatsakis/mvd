@@ -1,0 +1,1 @@
+static void good1() int k ; for(k = 0; k < 1; k++) FILE * pFile ; pFile = fopen ( "encrypted.txt" , "rb" ); if ( pFile == NULL )  if ( fread ( toBeDecrypted , sizeof ( char ) , 100 , pFile ) != 100 )  fclose ( pFile ); if ( pFile )  fclose ( pFile ); 

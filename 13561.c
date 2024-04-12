@@ -1,0 +1,1 @@
+static void good1() if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; FILE * pFile = fopen ( "debug.txt" , "a+" ) ; fprintf ( pFile , "User attempted access\n" ); if ( pFile )  fclose ( pFile ); fprintf ( pFile , "User attempted access\n" ); if ( pFile )  fclose ( pFile ); 

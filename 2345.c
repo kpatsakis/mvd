@@ -1,0 +1,1 @@
+void CWE761_Free_Pointer_Not_at_Start_of_Buffer__char_environment_31_bad() char * data ; data = ( char * ) malloc ( 100 * sizeof ( char ) ); data [ 0 ] = '\0'; size_t dataLen = strlen ( data ) ; strncat ( data + dataLen , environment , 100 - dataLen - 1 ); char * dataCopy = data ; char * data = dataCopy ; for (; *data != '\0'; data++) if ( * data == SEARCH_CHAR )  free ( data ); 

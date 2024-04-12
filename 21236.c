@@ -1,0 +1,1 @@
+void dynamic_buffer_underrun_037() int i ; char * * doubleptr = ( char * * ) malloc ( 10 * sizeof ( char * ) ) ; if ( doubleptr != NULL )  for (i=0;i<10;i++) doubleptr [ i ] = ( char * ) malloc ( 10 * sizeof ( char ) ); if ( doubleptr [ i ] != NULL )  doubleptr [ 0 ] [ 0 ] = 'T'; free ( doubleptr [ i ] ); free ( doubleptr ); 

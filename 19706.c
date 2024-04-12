@@ -1,0 +1,1 @@
+ main(int argc, char **argv) char * userstr ; if ( argc > 1 )  userstr = argv [ 1 ]; test ( userstr );  test(char *str) char buf [ MAXSIZE ] ; snprintf ( buf , 1024 , "<%*.*s>" , MAXSIZE - 3 , MAXSIZE - 3 , str ); printf ( "result: %s\n" , buf ); 

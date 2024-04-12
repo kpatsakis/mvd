@@ -1,0 +1,1 @@
+void bad() int * data ; data = NULL; data = new int badSink_b ( data ); void badSink_b(int * data) badSink_c ( data ); void badSink_c(int * data) badSink_d ( data ); void badSink_d(int * data) free ( data ); 

@@ -1,0 +1,1 @@
+static void goodB2G() int * data ; CWE690_NULL_Deref_From_Return__int_calloc_34_unionType myUnion ; data = NULL; data = ( int * ) calloc ( 1 , sizeof ( int ) ); myUnion . unionFirst = data; int * data = myUnion . unionSecond ; if ( data != NULL )  data [ 0 ] = 5; free ( data ); 

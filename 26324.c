@@ -1,0 +1,1 @@
+static void goodG2B() int h , j ; int data ; data = - 1; for(h = 0; h < 1; h++) data = 7; for(j = 0; j < 1; j++) int i ; int * buffer = ( int * ) malloc ( 10 * sizeof ( int ) ) ; for (i = 0; i < 10; i++) buffer [ i ] = 0; if ( data >= 0 )  buffer [ data ] = 1; free ( buffer ); 

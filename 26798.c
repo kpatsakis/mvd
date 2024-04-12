@@ -1,0 +1,1 @@
+void CWE416_Use_After_Free__malloc_free_wchar_t_08_bad() wchar_t * data ; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; data = ( wchar_t * ) malloc ( 100 * sizeof ( wchar_t ) ); free ( data ); printWLine ( data ); void printWLine (const wchar_t * line) if ( line != NULL )  wprintf ( L "%ls\n" , line ) 

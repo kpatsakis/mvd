@@ -1,0 +1,1 @@
+static void goodG2B() char * data ; data = NULL; char dataGoodBuffer [ 100 ] ; data = dataGoodBuffer; strcpy ( data , "A String" ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); baseObject -> action ( data ); void CWE401_Memory_Leak__new_array_char_82_goodG2B::action(char * data) 

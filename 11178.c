@@ -1,0 +1,1 @@
+void uninit_pointer_014 () uninit_pointer_014_func_001 ( 1 ); void uninit_pointer_014_func_001 (int flag) switch ( flag )  s = ( uninit_pointer_014_s_001 * ) calloc ( 1 , sizeof ( uninit_pointer_014_s_001 ) ); if ( s != NULL )  s -> a = 10; s -> b = 10; s -> uninit = 10; if ( s != NULL )  s -> a = 20; s -> b = 20; s -> uninit = 20; 

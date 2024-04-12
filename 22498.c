@@ -1,0 +1,1 @@
+static void scsi_target_read_data(SCSIRequest *req) SCSITargetReq * r = DO_UPCAST ( SCSITargetReq , req , req ) ; uint32_t n ; n = r -> len; if ( n > 0 )  r -> len = 0; scsi_req_complete ( & r -> req , GOOD ); void scsi_req_complete(SCSIRequest *req, int status) req -> status = status; assert ( req -> sense_len <= sizeof ( req -> sense ) ); 

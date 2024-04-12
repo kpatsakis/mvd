@@ -1,0 +1,1 @@
+static void goodB2G() size_t data ; data = 0; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; data = rand ( ); data = rand ( ); if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; if ( data > strlen ( HELLO_STRING ) && data < 100 )  

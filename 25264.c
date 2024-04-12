@@ -1,0 +1,1 @@
+void CWE328_Reversible_One_Way_Hash__w32_MD2_08_bad() if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; size_t i ; pFile = fopen ( "password.txt" , "r" ); for (i = 0; i < MD2_SUM_SIZE; i++) ULONG val ; if ( val > 0xff )  fclose ( pFile ); 

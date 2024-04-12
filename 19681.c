@@ -1,0 +1,1 @@
+void bad() wchar_t * data ; data = NULL; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; data = new wchar_t if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; free ( data ); 

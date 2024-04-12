@@ -1,0 +1,1 @@
+int main(int argc, char *argv[]) if ( argc > 1 )  char fName [ 256 ] = "" ; strncpy ( fName , argv [ 1 ] , 255 ); if ( printFile ( fName ) )  int printFile(const char *fileName) if ( fp = fopen ( fileName , "r" ) )  char buffer [ 512 ] ; while ( fgets ( buffer , 512 , fp ) )  printf ( "%3d: %s" , ++ lNumber , buffer ); 

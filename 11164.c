@@ -1,0 +1,1 @@
+static void goodG2B() int64_t * data ; int64_t * dataArray [ 5 ] ; data = NULL; data = ( int64_t * ) malloc ( 100 * sizeof ( int64_t ) ); dataArray [ 2 ] = data; CWE415_Double_Free__malloc_free_int64_t_66b_goodG2BSink ( dataArray ); void CWE415_Double_Free__malloc_free_int64_t_66b_goodG2BSink(int64_t * dataArray[]) int64_t * data = dataArray [ 2 ] ; free ( data ); 

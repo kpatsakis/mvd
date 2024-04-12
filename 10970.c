@@ -1,0 +1,1 @@
+void bad() int64_t * data ; data = ( int64_t * ) calloc ( 100 , sizeof ( int64_t ) ); printLongLongLine ( data [ 0 ] ); void printLongLongLine (int64_t longLongIntNumber) printf ( "%lld\n" , longLongIntNumber ); dataMap [ 0 ] = data; dataMap [ 1 ] = data; dataMap [ 2 ] = data; badSink ( dataMap ); void badSink(map<int, int64_t *> dataMap) int64_t * data = dataMap [ 2 ] ; 

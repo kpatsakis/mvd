@@ -1,0 +1,1 @@
+static void goodB2G2() wchar_t * data ; data = ( wchar_t * ) malloc ( 100 * sizeof ( wchar_t ) ); data [ 0 ] = L '\0' wcscpy ( data , BAD_SOURCE_FIXED_STRING ); if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; size_t i ; for (i=0; i < wcslen(data); i++) if ( data [ i ] == SEARCH_CHAR )  

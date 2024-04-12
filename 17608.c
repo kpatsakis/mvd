@@ -1,0 +1,1 @@
+void CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_34_bad() int * data ; data = ( int * ) malloc ( 10 ); myUnion . unionFirst = data; int * data = myUnion . unionSecond ; data [ i ] = source [ i ]; printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); free ( data ); 

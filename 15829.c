@@ -1,0 +1,1 @@
+static void goodG2B() int * data ; data = NULL; data = goodG2BSource ( data ); int * goodG2BSource(int * data) data = new int [ 100 ]; return data ; int source [ 100 ] = { 0 } ; memmove ( data , source , 100 * sizeof ( int ) ); printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); delete [ ] data 

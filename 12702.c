@@ -1,0 +1,1 @@
+MDefinition* binarySimd(MDefinition* lhs, MDefinition* rhs, MSimdBinaryBitwise::Operation MIRType type) if ( inDeadCode ( ) )  inline bool inDeadCode() const return curBlock_ == nullptr ; MSimdBinaryBitwise * ins = MSimdBinaryBitwise :: NewAsmJS ( alloc ( ) , lhs , rhs , op , type ) ; return * alloc_ ; TempAllocator &     alloc() const curBlock_ -> add ( ins ); return ins ; 

@@ -1,0 +1,1 @@
+int main() char * addr ; char special_char = '\377' ; addr = ( char * ) malloc ( sizeof ( char ) * 500 ); for(i=0; i<300; i=i+2) addr [ i ] = '\\'; addr [ i + 1 ] = special_char; CurEnv = ( ENVELOPE * ) malloc ( sizeof ( struct envelope ) ); CurEnv -> e_to = ( char * ) malloc ( strlen ( addr ) * sizeof ( char ) + 1 ); strcpy ( CurEnv -> e_to , addr ); 

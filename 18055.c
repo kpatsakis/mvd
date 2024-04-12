@@ -1,0 +1,1 @@
+void CWE758_Undefined_Behavior__double_pointer_malloc_use_11_bad() if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; double * * pointer = ( double * * ) malloc ( sizeof ( double * ) ) ; double * data = * pointer ; free ( pointer ); printDoubleLine ( * data ); void printDoubleLine(double doubleNumber) printf ( "%g\n" , doubleNumber ); 

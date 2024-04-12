@@ -1,0 +1,1 @@
+static void goodB2G1() wchar_t * data ; data = NULL; data = ( wchar_t * ) malloc ( 20 * sizeof ( wchar_t ) ); goodB2G1Sink ( data ); static void goodB2G1Sink(wchar_t * data) if ( goodB2G1Static )  if ( data != NULL )  wcscpy ( data , L "Initialize" ) free ( data ); 

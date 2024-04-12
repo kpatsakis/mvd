@@ -1,0 +1,1 @@
+void CWE400_Resource_Exhaustion__rand_fwrite_11_bad() if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; const char * filename = "output_bad.txt" ; pFile = fopen ( filename , "w+" ); if ( pFile == NULL )  if ( strlen ( SENTENCE ) != fwrite ( SENTENCE , sizeof ( char ) , strlen ( SENTENCE ) , pFile ) )  if ( pFile )  fclose ( pFile ); 

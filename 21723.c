@@ -1,0 +1,1 @@
+void bad() twoIntsStruct * data ; map < int , twoIntsStruct * > dataMap ; data = NULL; data = new twoIntsStruct dataMap [ 0 ] = data; dataMap [ 1 ] = data; dataMap [ 2 ] = data; badSink ( dataMap ); void badSink(map<int, twoIntsStruct *> dataMap) twoIntsStruct * data = dataMap [ 2 ] ; free ( data ); 

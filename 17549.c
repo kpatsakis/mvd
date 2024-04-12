@@ -1,0 +1,1 @@
+static void goodG2B2() wchar_t * password ; password = L "" password = goodG2B2Source ( password ); static wchar_t * goodG2B2Source(wchar_t * password) if ( goodG2B2Static )  password = ( wchar_t * ) malloc ( 100 * sizeof ( wchar_t ) ); if ( password == NULL )  if ( ! VirtualLock ( password , 100 * sizeof ( wchar_t ) ) )  return password ; 

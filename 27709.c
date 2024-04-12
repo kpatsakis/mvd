@@ -1,0 +1,1 @@
+static void goodB2G2() struct _twoIntsStruct * data ; data = NULL; data = ( struct _twoIntsStruct * ) calloc ( 100 , sizeof ( struct _twoIntsStruct ) ); data [ 0 ] . intOne = 0; data [ 0 ] . intTwo = 0; goodB2G2Sink ( data ); static void goodB2G2Sink(struct _twoIntsStruct * data) if ( goodB2G2Static )  free ( data ); 

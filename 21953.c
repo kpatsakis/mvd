@@ -1,0 +1,1 @@
+void bad() list < int * > dataList ; badSink ( dataList ); void badSink(list<int *> dataList) int * data = dataList . back ( ) ; int source [ 10 ] = { 0 } ; memmove ( data , source , 10 * sizeof ( int ) ); printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); free ( data ); 

@@ -1,0 +1,1 @@
+void bad() int * data ; int * dataArray [ 5 ] ; data = NULL; data = new int [ 50 ]; dataArray [ 2 ] = data; badSink ( dataArray ); void badSink(int * dataArray[]) int * data = dataArray [ 2 ] ; int source [ 100 ] = { 0 } ; memcpy ( data , source , 100 * sizeof ( int ) ); printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); delete [ ] data 

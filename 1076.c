@@ -1,0 +1,1 @@
+static void goodG2B() list < size_t > dataList ; goodG2BSink ( dataList ); void goodG2BSink(list<size_t> dataList) size_t data = dataList . back ( ) ; wchar_t * myString ; if ( data > wcslen ( HELLO_STRING ) )  myString = ( wchar_t * ) malloc ( data * sizeof ( wchar_t ) ); wcscpy ( myString , HELLO_STRING ); free ( myString ); 

@@ -1,0 +1,1 @@
+static void goodB2G() char * dataBadBuffer = ( char * ) malloc ( sizeof ( OneIntClass ) ) ; data = dataBadBuffer; myUnion . unionFirst = data; char * data = myUnion . unionSecond ; OneIntClass * classOne = new ( data ) OneIntClass classOne -> intOne = 5; printIntLine ( classOne -> intOne ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); free ( data ); 

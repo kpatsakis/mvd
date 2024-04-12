@@ -1,0 +1,1 @@
+void CWE789_Uncontrolled_Mem_Alloc__malloc_char_rand_05_bad() size_t data ; data = 0; if ( staticTrue )  data = rand ( ); if ( staticTrue )  char * myString ; if ( data > strlen ( HELLO_STRING ) )  myString = ( char * ) malloc ( data * sizeof ( char ) ); strcpy ( myString , HELLO_STRING ); free ( myString ); 

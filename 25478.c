@@ -1,0 +1,1 @@
+static void goodB2G() vector < size_t > dataVector ; goodB2GSink ( dataVector ); void goodB2GSink(vector<size_t> dataVector) size_t data = dataVector [ 2 ] ; char * myString ; if ( data > strlen ( HELLO_STRING ) && data < 100 )  myString = ( char * ) malloc ( data * sizeof ( char ) ); strcpy ( myString , HELLO_STRING ); free ( myString ); 

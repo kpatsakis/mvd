@@ -1,0 +1,1 @@
+void bad() int64_t * data ; data = NULL; badSource ( data ); static void badSource(int64_t * &data) data = ( int64_t * ) malloc ( 100 * sizeof ( int64_t ) ); size_t i ; for(i = 0; i < 100; i++) data [ i ] = 5L L free ( data ); 

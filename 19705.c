@@ -1,0 +1,1 @@
+static void goodB2G() int count ; int * countPtr2 = & count ; count = - 1; int count = * countPtr2 ; const char * filename = "output_good.txt" ; if ( count > 0 && count <= 20 )  pFile = fopen ( filename , "w+" ); if ( pFile )  fclose ( pFile ); 

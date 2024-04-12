@@ -1,0 +1,1 @@
+static pv_emulate_cmpxchg(enum x86_segment unsigned long void void unsigned int struct x86_emulate_ctxt *ctxt) if ( ! is_x86_user_segment ( seg ) || bytes > sizeof ( long ) )  old = new = 0 memcpy ( & old , p_old , bytes ); return v -> arch . paging . mode -> shadow . x86_emulate_cmpxchg v , offset , old , new , bytes , sh_ctxt ) 

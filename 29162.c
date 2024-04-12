@@ -1,0 +1,1 @@
+void bad() char * data ; unionType myUnion ; data = NULL; data = new char [ 10 ]; myUnion . unionFirst = data; char * data = myUnion . unionSecond ; char source [ 10 + 1 ] = SRC_STRING ; memmove ( data , source , ( strlen ( source ) + 1 ) * sizeof ( char ) ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); delete [ ] data 

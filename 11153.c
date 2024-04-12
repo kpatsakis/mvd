@@ -1,0 +1,1 @@
+static void goodG2B() int h ; char * data ; char data_buf [ 100 ] = FULL_COMMAND ; data = data_buf; for(h = 0; h < 1; h++) strcat ( data , "*.*" ); pipe = POPEN ( data , "wb" ); if ( pipe != NULL )  PCLOSE ( pipe ); 

@@ -1,0 +1,1 @@
+void bad() int64_t * data ; map < int , int64_t * > dataMap ; data = NULL; data = new int64_t [ 100 ]; dataMap [ 0 ] = data; dataMap [ 1 ] = data; dataMap [ 2 ] = data; badSink ( dataMap ); void badSink(map<int, int64_t *> dataMap) int64_t * data = dataMap [ 2 ] ; free ( data ); 

@@ -1,0 +1,1 @@
+static void goodG2B1() wchar_t * password ; password = L "" password = goodG2B1Source ( password ); static wchar_t * goodG2B1Source(wchar_t * password) if ( goodG2B1Static )  password = ( wchar_t * ) malloc ( 100 * sizeof ( wchar_t ) ); wcscpy ( password , L "Password1234!" ) return password ; free ( password ); 

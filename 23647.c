@@ -1,0 +1,1 @@
+void CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_memcpy_16_bad() int * data ; int * dataBadBuffer = ( int * ) ALLOCA ( 50 * sizeof ( int ) ) ; while ( 1 )  data = dataBadBuffer; int source [ 100 ] = { 0 } ; memcpy ( data , source , 100 * sizeof ( int ) ); printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); 

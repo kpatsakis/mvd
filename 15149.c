@@ -1,0 +1,1 @@
+void CWE415_Double_Free__malloc_free_int_11_bad() int * data ; data = NULL; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; data = ( int * ) malloc ( 100 * sizeof ( int ) ); if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; free ( data ); 

@@ -1,0 +1,1 @@
+static void good2() if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; UCHAR savedHash [ SHA512_SUM_SIZE ] , calcHash [ SHA512_SUM_SIZE ] ; size_t i ; for (i = 0; i < SHA512_SUM_SIZE; i++) ULONG val ; savedHash [ i ] = ( UCHAR ) val; if ( memcmp ( savedHash , calcHash , SHA512_SUM_SIZE * sizeof ( UCHAR ) ) == 0 )  

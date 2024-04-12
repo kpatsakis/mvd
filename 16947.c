@@ -1,0 +1,1 @@
+static void goodG2B() list < char * > dataList ; goodG2BSink ( dataList ); void goodG2BSink(list<char *> dataList) char * data = dataList . back ( ) ; char source [ 100 ] ; memset ( source , 'C' , 100 - 1 ); source [ 100 - 1 ] = '\0'; strncat ( data , source , 100 ); free ( data ); 

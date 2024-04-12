@@ -1,0 +1,1 @@
+static void goodB2G() char * data ; data = NULL; data = ( char * ) realloc ( data , 20 * sizeof ( char ) ); goodB2GSink ( data ); static void goodB2GSink(char * data) if ( data != NULL )  strcpy ( data , "Initialize" ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); free ( data ); 

@@ -1,0 +1,1 @@
+static pvscsi_io_write(void *opaque, hwaddr uint64_t val, unsigned size) PVSCSIState * s = opaque ; switch ( addr )  s -> reg_interrupt_status &= ~val; s -> reg_interrupt_enabled = val; pvscsi_process_io ( s ); static pvscsi_process_io(PVSCSIState *s) assert ( s -> rings_info_valid ); 

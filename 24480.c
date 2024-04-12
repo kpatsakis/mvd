@@ -1,0 +1,1 @@
+void CWE78_OS_Command_Injection__wchar_t_environment_popen_17_bad() int i ; wchar_t * data ; wchar_t data_buf [ 100 ] = FULL_COMMAND ; data = data_buf; for(i = 0; i < 1; i++) size_t dataLen = wcslen ( data ) ; wcsncat ( data + dataLen , environment , 100 - dataLen - 1 ); pipe = POPEN ( data , L "wb" ) if ( pipe != NULL )  PCLOSE ( pipe ); 

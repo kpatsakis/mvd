@@ -1,0 +1,1 @@
+static void goodG2B2() if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; FILE * pFile ; pFile = fopen ( "passwords.txt" , "r" ); if ( pFile != NULL )  if ( fgets ( data , 100 , pFile ) == NULL )  data [ 0 ] = '\0'; fclose ( pFile ); 

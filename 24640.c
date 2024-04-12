@@ -1,0 +1,1 @@
+static void goodB2G() char * data ; char * dataBadBuffer = ( char * ) malloc ( sizeof ( OneIntClass ) ) ; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; data = dataBadBuffer; data = dataBadBuffer; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; free ( data ); 

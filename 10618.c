@@ -1,0 +1,1 @@
+template<class MDefinition* binarySimd(MDefinition* lhs, MDefinition* rhs, typename T::Operation op) if ( inDeadCode ( ) )  inline bool inDeadCode() const return curBlock_ == nullptr ; T * ins = T :: NewAsmJS ( alloc ( ) , lhs , rhs , op ) ; return * alloc_ ; TempAllocator &     alloc() const curBlock_ -> add ( ins ); return ins ; 

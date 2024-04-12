@@ -1,0 +1,1 @@
+static void goodG2B() twoIntsStruct * data ; CWE122_Heap_Based_Buffer_Overflow__sizeof_struct_34_unionType myUnion ; data = NULL; data = ( twoIntsStruct * ) malloc ( sizeof ( * data ) ); data -> intOne = 1; data -> intTwo = 2; myUnion . unionFirst = data; twoIntsStruct * data = myUnion . unionSecond ; free ( data ); 

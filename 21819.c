@@ -1,0 +1,1 @@
+static void good2() if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; short * goodShort = NULL ; goodShort = ( short * ) malloc ( sizeof ( * goodShort ) ); * goodShort = 6; printShortLine ( * goodShort ); void printShortLine (short shortNumber) printf ( "%hd\n" , shortNumber ); free ( goodShort ); 

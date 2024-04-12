@@ -1,0 +1,1 @@
+static void good2() if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; FILE * pFile ; pFile = fopen ( "encrypted.txt" , "rb" ); if ( pFile == NULL )  if ( fread ( toBeDecrypted , sizeof ( char ) , 100 , pFile ) != 100 )  fclose ( pFile ); if ( pFile )  fclose ( pFile ); 

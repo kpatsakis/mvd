@@ -1,0 +1,1 @@
+static void goodG2B2() int data ; data = - 1; data = goodG2B2Source ( data ); static int goodG2B2Source(int data) if ( goodG2B2Static )  data = 20; return data ; int * intPointer ; intPointer = ( int * ) malloc ( data * sizeof ( int ) ); intPointer [ i ] = 0; printIntLine ( intPointer [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); free ( intPointer ); 

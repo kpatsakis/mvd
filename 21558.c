@@ -1,0 +1,1 @@
+static void goodB2G() list < int > countList ; goodB2GSink ( countList ); void goodB2GSink(list<int> countList) int count = countList . back ( ) ; const char * filename = "output_good.txt" ; if ( count > 0 && count <= 20 )  pFile = fopen ( filename , "w+" ); if ( pFile )  fclose ( pFile ); 

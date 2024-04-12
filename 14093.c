@@ -1,0 +1,1 @@
+static void goodB2G2() int * data ; data = ( int * ) malloc ( 100 * sizeof ( int ) ); data [ 0 ] = 5; printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); goodB2G2Sink ( data ); static void goodB2G2Sink(int * data) free ( data ); 

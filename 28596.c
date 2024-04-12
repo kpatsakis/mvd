@@ -1,0 +1,1 @@
+void CWE90_LDAP_Injection__w32_wchar_t_environment_21_bad() wchar_t * data ; wchar_t dataBuffer [ 256 ] = L "" data = dataBuffer; data = badSource ( data ); static wchar_t * badSource(wchar_t * data) if ( badStatic )  size_t dataLen = wcslen ( data ) ; wcsncat ( data + dataLen , environment , 256 - dataLen - 1 ); return data ; 

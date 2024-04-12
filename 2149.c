@@ -1,0 +1,1 @@
+static void goodB2G() char * data ; CWE690_NULL_Deref_From_Return__char_realloc_34_unionType myUnion ; data = NULL; data = ( char * ) realloc ( data , 20 * sizeof ( char ) ); myUnion . unionFirst = data; char * data = myUnion . unionSecond ; if ( data != NULL )  strcpy ( data , "Initialize" ); free ( data ); 

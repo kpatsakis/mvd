@@ -1,0 +1,1 @@
+static void goodB2G() int i , k ; int64_t * data ; data = NULL; for(i = 0; i < 1; i++) data = ( int64_t * ) realloc ( data , 100 * sizeof ( int64_t ) ); printLongLongLine ( data [ 0 ] ); void printLongLongLine (int64_t longLongIntNumber) printf ( "%lld\n" , longLongIntNumber ); free ( data ); 

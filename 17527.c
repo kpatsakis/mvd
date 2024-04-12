@@ -1,0 +1,1 @@
+static void goodB2G() int64_t * data ; data = NULL; data = goodB2GSource ( data ); static int64_t * goodB2GSource(int64_t * data) data = ( int64_t * ) realloc ( data , 1 * sizeof ( int64_t ) ); return data ; if ( data != NULL )  data [ 0 ] = 5L L free ( data ); 

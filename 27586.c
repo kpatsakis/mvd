@@ -1,0 +1,1 @@
+void bad() int64_t * data ; structType myStruct ; data = NULL; data = new int64_t [ 100 ]; myStruct . structFirst = data; badSink ( myStruct ); void badSink(structType myStruct) int64_t * data = myStruct . structFirst ; free ( data ); 

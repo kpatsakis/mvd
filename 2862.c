@@ -1,0 +1,1 @@
+static void good2() if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; size_t i ; pFile = fopen ( "password.txt" , "r" ); for (i = 0; i < SHA512_SUM_SIZE; i++) ULONG val ; if ( val > 0xff )  fclose ( pFile ); 

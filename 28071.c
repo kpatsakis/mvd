@@ -1,0 +1,1 @@
+void bad() list < char * > dataList ; badSink ( dataList ); void badSink(list<char *> dataList) char * data = dataList . back ( ) ; strcpy ( data , "Initialize" ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); free ( data ); 

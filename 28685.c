@@ -1,0 +1,1 @@
+static void goodG2B() char * password ; char passwordBuffer [ 100 ] = "" ; password = passwordBuffer; if ( fgets ( password , 100 , stdin ) == NULL )  password [ 0 ] = '\0'; passwordLen = strlen ( password ); if ( passwordLen > 0 )  password [ passwordLen - 1 ] = '\0'; funcPtr ( password ); 

@@ -1,0 +1,1 @@
+void goodG2BSink_b(wchar_t * data) goodG2BSink_c ( data ); void goodG2BSink_c(wchar_t * data) goodG2BSink_d ( data ); void goodG2BSink_d(wchar_t * data) goodG2BSink_e ( data ); void goodG2BSink_e(wchar_t * data) FILE * pFile = NULL ; pFile = FOPEN ( data , L "wb+" ) if ( pFile != NULL )  fclose ( pFile ); 

@@ -1,0 +1,1 @@
+void CWE256_Plaintext_Storage_of_Password__w32_wchar_t_12_bad() if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; FILE * pFile ; FILE * pFile ; pFile = fopen ( "passwords.txt" , "r" ); if ( pFile != NULL )  if ( fgetws ( data , 100 , pFile ) == NULL )  fclose ( pFile ); 

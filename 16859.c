@@ -1,0 +1,1 @@
+static void goodG2B() char * data ; unionType myUnion ; data = new char [ 100 ]; memset ( data , 'A' , 50 - 1 ); data [ 50 - 1 ] = '\0'; myUnion . unionFirst = data; char * data = myUnion . unionSecond ; char dest [ 50 ] = "" ; strcpy ( dest , data ); 

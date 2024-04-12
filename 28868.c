@@ -1,0 +1,1 @@
+template<typename MDefinition* constructSimd(MDefinition* x, MDefinition* y, MDefinition* z, MDefinition* MIRType type) if ( inDeadCode ( ) )  inline bool inDeadCode() const return curBlock_ == nullptr ; T * ins = T :: NewAsmJS ( alloc ( ) , type , x , y , z , w ) ; return * alloc_ ; TempAllocator &     alloc() const curBlock_ -> add ( ins ); return ins ; 

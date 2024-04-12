@@ -1,0 +1,1 @@
+void CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_12_bad() FILE * data ; data = NULL; data = fopen ( "BadSource_fopen.txt" , "w+" ); if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; data = fopen ( "BadSink_fopen.txt" , "w+" ); data = fopen ( "GoodSink_fopen.txt" , "w+" ); if ( data != NULL )  fclose ( data ); 

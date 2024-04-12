@@ -1,0 +1,1 @@
+static void goodB2G() char * data ; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; data = ( char * ) malloc ( 100 * sizeof ( char ) ); data = ( char * ) malloc ( 100 * sizeof ( char ) ); strcpy ( data , "A String" ); if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; free ( data ); 

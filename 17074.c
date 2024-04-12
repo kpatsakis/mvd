@@ -1,0 +1,1 @@
+static void goodG2B() long * data ; data = NULL; data = ( long * ) malloc ( 100 * sizeof ( long ) ); goodG2BSink_b ( data ); void goodG2BSink_b(long * data) goodG2BSink_c ( data ); void goodG2BSink_c(long * data) goodG2BSink_d ( data ); void goodG2BSink_d(long * data) free ( data ); 
